@@ -13,4 +13,8 @@ export default class Pixel {
     ctx.strokeStyle = "#cccccc";
     ctx.strokeRect(this.x, this.y, this.size, this.size);
   }
+
+  setColor(color) {
+    this.color = color;
+  }
 }
