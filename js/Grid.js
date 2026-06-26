@@ -30,4 +30,10 @@ export default class Grid {
       mouseY < pixel.y + pixel.size
     );
   }
+
+  clear() {
+  this.pixels.forEach(pixel => {
+    pixel.setColor("#ffffff");
+  });
+}
 }
